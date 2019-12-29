@@ -276,11 +276,12 @@ return InkWell(
                        
                           RawMaterialButton(
                             
-                           fillColor:Colors.white.withOpacity(.5),
+                           fillColor:Colors.blue.withOpacity(1),
                             onPressed: null,
-                            shape:new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(3.0)),
+                            shape:new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(8.0)),
                             padding: EdgeInsets.symmetric(horizontal: 0.0,vertical: 0.0),
-                            child: Text("Rs. "+price.toString(),style: TextStyle(color: Colors.grey,fontSize: 15.0),),
+                            
+                            child: Text("Rs. "+price.toString(),style: TextStyle(color: Colors.white,fontSize: 15.0),),
                           ),
                           
                         ],
